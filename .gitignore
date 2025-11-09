@@ -1,0 +1,14 @@
+# Carpetas y archivos temporales
+*.ipynb_checkpoints
+__pycache__/
+*.log
+*.tmp
+
+# Evitar subir datasets grandes
+data/bronze/
+data/silver/
+data/raw/
+!data/raw/raw_fighter_details.csv  # excepción: archivo original
+
+# Entornos locales
+.env
