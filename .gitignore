@@ -12,3 +12,4 @@ data/raw/
 
 # Entornos locales
 .env
+.DS_Store
